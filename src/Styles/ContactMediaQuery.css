@@ -20,11 +20,11 @@
     }
 
     .form_container {
-        max-width: none;
+        max-width: 750px;
     }
 
     form {
-        max-width: 580px;
+        max-width: 480px;
     }
 
     .form_container h2 {

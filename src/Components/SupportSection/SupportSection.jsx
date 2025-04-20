@@ -37,7 +37,7 @@ const SupportSection = () => {
                         </div>
                     </div>
                     <div className='form_container max-w-[580px]'>
-                        <form className='flex flex-col gap-[15px] max-w-[352px]'>
+                        <form className='flex flex-col gap-[15px] max-w-[352px]' action='/contact'>
                             <h2 className='font-semibold text-[40px]'>Get in Touch</h2>
                             <h4 className='font-normal text-[22px]'>What do you have to say to us ?</h4>
                             <input type="text" placeholder='Full name' />
@@ -45,7 +45,7 @@ const SupportSection = () => {
                             <input type="text" placeholder='Subject' />
                             <textarea name="" placeholder='Message' ></textarea>
                             <div className='!pt-[10px]'>
-                                <button className='form_btn flex items-center gap-[18px]'>
+                                <button type='submit' className='form_btn flex items-center gap-[18px]'>
                                     Send message
                                     <span className="fa-regular fa-envelope text-[22px]" />
                                 </button>
