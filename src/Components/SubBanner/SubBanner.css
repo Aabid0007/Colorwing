@@ -1,0 +1,28 @@
+.sub_banner_img {
+    background-image: url('../../assets/Rectangle 40.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(187, 27, 31, 1);
+    width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.service_banner_svg {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 165px;
+}
+
+.contact_banner_svg {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    top: 176px;
+}

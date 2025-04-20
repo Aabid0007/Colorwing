@@ -1,0 +1,46 @@
+.bg-color{
+    background-color: #d31618;
+}
+.right_side_img{
+    background-image: url("../../assets/bg filter img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 57%;
+    height: 90%;
+    position: absolute;
+    top: 33px;
+    right: 0;
+    filter: blur(36px);
+    opacity: 0.7;
+}
+.middle_side_img{
+    background-image: url('../../assets/Image (2).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 46%;
+    height: 64%;
+    position: absolute;
+    top: 2px;
+    left: 36%;
+    filter: blur(28px);
+    opacity: 0.7;
+}
+.left_side_img{
+    background-image: url('../../assets/Image (1).png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 37%;
+    height: 94%;
+    position: absolute;
+    top: 0;
+    left: 8px;
+    filter: blur(23px);
+    opacity: 0.7;
+}
+
+.p_tag{
+    z-index: 99;
+}

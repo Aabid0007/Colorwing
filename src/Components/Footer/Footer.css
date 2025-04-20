@@ -1,0 +1,49 @@
+.footer_header{
+    border-top: 0.5px solid #fff;
+}
+.footer_header h4{
+   color: var(--primary-color);
+   font-weight: 700;
+   font-size: 22px;
+}
+.footer-border{
+    border-top: 0.5px solid #fac6c7;
+    border-bottom: 0.5px solid #fac6c7;
+}
+.list_item{
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 44px;
+}
+.font-custom{
+    background-color: rgba(120, 0, 2, 1);
+    padding: 8px 9px;
+    border-radius: 7px;
+    font-size: 24px;
+}
+.instagram_icon{
+    background-color: rgba(120, 0, 2, 1);
+    border-radius: 7px;
+    font-size: 28px;
+    padding: 6px 8px;
+}
+li::marker {
+    font-size: 1rem !important;
+}
+.fa-brands{
+    cursor: pointer;
+}
+.mobile_screen_footer{
+    display: none;
+}
+.card_list_header{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card_list_header h3{
+    font-size: 22px;
+}
+.fa-facebook-f{
+    padding: 8px 12px;
+}

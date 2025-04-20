@@ -1,0 +1,13 @@
+.border_left{
+    border-radius: 0 0 0 52px;
+}
+.border_right{
+    border-radius: 0 0 52px 0;
+}
+.services_img_section h6{
+    padding: 20px;
+    opacity: 0.9;
+}
+.services_details_section{
+    padding: 39px 0;
+}

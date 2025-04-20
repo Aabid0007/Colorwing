@@ -1,0 +1,18 @@
+.carousel_img2{
+    width: 100%;
+}
+
+.small_width{
+    width: 22px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.medium_width{
+    width: 48px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #96858b;
+}
+
+

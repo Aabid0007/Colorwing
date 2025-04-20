@@ -1,0 +1,11 @@
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  .custom-bg{
+    background-color: var(--bg-color);
+  }
+  .custom-text{
+    color: var(--primary-color);
+  }

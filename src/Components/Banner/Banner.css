@@ -1,0 +1,138 @@
+.main_banner_img {
+    background-image: url('../../assets/BannerImg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(187, 27, 31, 1);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.banner_section {
+    display: flex;
+    flex-direction: column;
+    gap: 58px;
+}
+
+.banner_section h1,
+.banner_section p {
+    z-index: 1;
+}
+
+.banner_img_section {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_side_span {
+    left: 76px;
+    top: -84px;
+    background-color: rgba(255, 200, 23, 1);
+    transform: rotate(5.88deg);
+    padding: 5px 7px;
+    border-radius: 21px;
+    font-size: 10px;
+}
+
+.left_side_arrow {
+    left: 88px;
+    top: -63px;
+    width: 25px;
+}
+
+.bg_blur_img {
+    background-image: url("../../assets/Ellipse 1.png");
+    background-size: cover;
+    background-position: center;
+    width: 59%;
+    height: 425px;
+    position: absolute;
+    top: 168px;
+}
+.item_img{
+    transition: opacity 0.4s, filter 0.4s, transform 0.4s;
+}
+.active {
+    z-index: 3;
+    transform: scale(1.4) rotate(var(--rotate-angle));
+    transition: transform 0.3s;
+}
+
+  .img-0 { --rotate-angle: 8.4deg; }
+  .img-1 { --rotate-angle: 8deg; }
+  .img-2 { --rotate-angle: 7deg; }
+  .img-3 { --rotate-angle: 1deg; }
+  .img-4 { --rotate-angle: 4deg; }
+  .img-5 { --rotate-angle: 3deg; }
+  .img-6 { --rotate-angle: -2deg; }
+  .img-7 { --rotate-angle: -3deg; }
+  .img-8 { --rotate-angle: 1deg; }
+
+.inactive {
+    opacity: 0.6;
+    
+}
+
+.img-0 {
+    left: 3%;
+    top: 0;
+}
+
+.img-1 {
+    left: 10%;
+    top: 12px;
+}
+
+.img-2 {
+    left: 21%;
+    top: 4px;
+}
+
+.img-3 {
+    left: 31%;
+    top: 17px;
+}
+
+.img-4 {
+    left: 41.5%;
+    top: 5px;
+}
+
+.img-5 {
+    left: 51.2%;
+    top: 5px;
+}
+
+.img-6 {
+    left: 61.4%;
+    top: 20px;
+}
+
+.img-7 {
+    left: 72%;
+    top: 5px;
+}
+
+.img-8 {
+    left: 82%;
+    top: 16px;
+}
+
+.more_btn{
+    background-color: rgba(255, 255, 255, 1);
+    color: var(--bg-color);
+    font-size: 15px;
+    padding: 11px 14px;
+    border-radius: 24px;
+    box-shadow: 2.12px 5.66px 4.6px 0px rgba(186, 16, 20, 1);
+    cursor: pointer;
+}
+.more_btn span{
+    font-size: 18px;
+}
