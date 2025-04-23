@@ -121,7 +121,7 @@
 
 .img-8 {
     left: 82%;
-    top: 16px;
+    top: 19px;
 }
 
 .more_btn{
@@ -135,4 +135,72 @@
 }
 .more_btn span{
     font-size: 18px;
+}
+.lazy_load_bg_0{
+    rotate: -9deg;
+    border-radius: 15px;
+    width: 172px;
+    height: 194px;
+    top: 7px;
+    left: 46px;
+}
+.lazy_load_bg_1{
+    rotate: -9deg;
+    width: 172px;
+    left: 10.7%;
+    top: 19px;
+    height: 195px;
+    border-radius: 18px;
+}
+.lazy_load_bg_2{
+    rotate: -8deg;
+    width: 175px;
+    height: 197px;
+    left: 21.6%;
+    top: 10px;
+    border-radius: 14px;
+}
+.lazy_load_bg_3{
+    rotate: -1deg;
+    border-radius: 15px;
+}
+.lazy_load_bg_4{
+    height: 202px;
+    rotate: -4deg;
+    left: 41.9%;
+    top: 9px;
+    width: 180px;
+    border-radius: 14px;
+}
+.lazy_load_bg_5{
+    rotate: -3deg;
+    left: 51.5%;
+    top: 8px;
+    width: 182px;
+    border-radius: 12px;
+    height: 204px;
+}
+.lazy_load_bg_6{
+    rotate: 2deg;
+    left: 61.6%;
+    top: 22px;
+    width: 185px;
+    border-radius: 14px;
+    height: 206px;
+}
+.lazy_load_bg_7{
+    rotate: 3deg;
+    left: 72.2%;
+    top: 7px;
+    border-radius: 13px;
+    width: 184px;
+    height: 206px;
+}
+.lazy_load_bg_8{
+    rotate: -1deg;
+    left: 82.1%;
+    top: 19px;
+    width: 188px;
+    height: 210px;
+    border-radius: 14px;
 }

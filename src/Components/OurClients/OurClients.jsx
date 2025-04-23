@@ -11,7 +11,7 @@ const OurClients = () => {
                           md:text-[42px] lg:text-[50px] sm:text-[26px] text-[22px]'>
                         Our Valued Clients
                     </h3>
-                    <img src={clientsImg} alt="" className='w-[96%] h-auto ' />
+                    <img src={clientsImg} alt="" className='w-[96%] h-auto' loading='lazy' />
                 </div>
             </div>
         </div>

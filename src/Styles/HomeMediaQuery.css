@@ -20,6 +20,60 @@
         top: 158px;
     }
 
+    .lazy_load_bg_0 {
+        rotate: -8.3deg;
+        border-radius: 11px;
+        width: 152px;
+        height: 168px;
+        top: 6px;
+        left: 37px;
+    }
+
+    .lazy_load_bg_1 {
+        width: 145px;
+        height: 169px;
+        rotate: -8deg;
+        top: 18px;
+    }
+
+    .lazy_load_bg_2 {
+        width: 148px;
+        height: 170px;
+        top: 9px;
+    }
+
+    .lazy_load_bg_4 {
+        width: 153px;
+        height: 175px;
+        left: 41.8%;
+        top: 8px;
+    }
+
+    .lazy_load_bg_5 {
+        width: 155px;
+        height: 176px;
+        left: 51.4%;
+    }
+
+    .lazy_load_bg_6 {
+        width: 157px;
+        height: 178px;
+        left: 61.5%;
+        top: 21px;
+    }
+
+    .lazy_load_bg_7 {
+        width: 155px;
+        height: 177px;
+        left: 72.2%;
+        top: 7px;
+    }
+
+    .lazy_load_bg_8 {
+        left: 82%;
+        top: 19px;
+    }
+
     .carousel_content_section {
         gap: 36px;
     }
@@ -38,28 +92,71 @@
         line-height: 49px;
         max-width: 463px;
     }
+
     .left_side_span {
         left: 56px;
         font-size: 9px;
     }
+
     .left_side_arrow {
         left: 69px;
         width: 22px;
     }
+
     .bg_blur_img {
         top: 135px;
         opacity: 0.9;
         width: 60%;
         height: 336px;
     }
-    
+
     .item_img {
         width: 130px;
         height: 152px;
     }
+
     .banner_img_section {
         height: 182px;
     }
+
+    .lazy_load_bg_0 {
+        rotate: -8.7deg;
+        border-radius: 11px;
+        width: 122px;
+        height: 142px;
+        top: 5px;
+        left: 28px;
+    }
+
+    .lazy_load_bg_1 {
+        width: 119px;
+        height: 140px;
+        rotate: -8.9deg;
+        left: 10.7%;
+        border-radius: 9px;
+    }
+
+    .lazy_load_bg_2 {
+        width: 122px;
+        height: 143px;
+        rotate: -7.8deg;
+    }
+
+    .lazy_load_bg_4 {
+        width: 127px;
+        height: 148px;
+    }
+
+    .lazy_load_bg_6 {
+        width: 129px;
+        height: 151px;
+    }
+
+    .lazy_load_bg_7 {
+        width: 127px;
+        height: 150px;
+    }
+
     .carousel_content_section p {
         max-width: 701px;
         font-size: 19px;
@@ -179,9 +276,10 @@
         padding: 34px 0 12px;
     }
 
-    .banner_img_section{
+    .banner_img_section {
         display: none;
     }
+
     .logo_img img {
         width: 27px;
         height: 38px;
