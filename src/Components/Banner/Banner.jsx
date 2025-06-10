@@ -1,4 +1,5 @@
-import React, { useState, Suspense } from 'react'
+import React, { useState } from 'react'
+import { motion } from 'framer-motion';
 import './Banner.css'
 import img1 from '../../assets/Rectangle 1.png';
 import img2 from '../../assets/Rectangle 2.png';
@@ -10,6 +11,7 @@ import img7 from '../../assets/Rectangle 7.png';
 import img8 from '../../assets/Rectangle 8.png';
 import img9 from '../../assets/Rectangle 9.png';
 import arrow from '../../assets/Arrow.png'
+import { fadeIn } from '../../../variants';
 
 const Banner = () => {
     const [activeIndex, setActiveIndex] = useState(null);
@@ -18,7 +20,12 @@ const Banner = () => {
     return (
         <div className='banner relative main_banner_img'>
             <div className='container'>
-                <div className='banner_section relative !py-[75px] place-items-center z-100' onClick={() => setActiveIndex(null)} >
+                <motion.div
+                    variants={fadeIn('up', 0.2)}
+                    initial='hidden'
+                    whileInView={'show'}
+                    viewport={{ once: true, amount: 0.2 }}
+                    className='banner_section relative !py-[75px] place-items-center z-100' onClick={() => setActiveIndex(null)} >
                     <h1 className='font-bold text-[46px] leading-[65px] text-center max-w-[666px] custom-text'>
                         Transform Your Space Make a
                         <span style={{ background: 'rgba(255, 200, 23, 1)' }} className='!pl-1.5'>
@@ -33,7 +40,7 @@ const Banner = () => {
                         <img src={arrow} alt="" className='left_side_arrow absolute' />
 
                         {images.map((img, index) => (
-                            <>
+                            <div key={index}>
                                 <div
                                     className={`item_img w-[190px] h-[210px] absolute lazy_load_bg_${index} img-${index} bg-gray-300 transition-opacity duration-500 
                               ${loaded.has(index) ? 'opacity-0' : 'opacity-100'
@@ -52,7 +59,7 @@ const Banner = () => {
                                         setActiveIndex(activeIndex === index ? null : index);
                                     }}
                                 />
-                            </>
+                            </div>
                         ))}
                     </div>
                     <p className='custom-text font-normal text-[17px] max-w-[583px] text-center'>Discover innovative indoor and outdoor branding solutions designed to captivate, inspire, and connect with your audience effortlessly.</p>
@@ -61,7 +68,7 @@ const Banner = () => {
                             north_east
                         </span>
                     </button>
-                </div>
+                </motion.div>
             </div>
         </div>
     )

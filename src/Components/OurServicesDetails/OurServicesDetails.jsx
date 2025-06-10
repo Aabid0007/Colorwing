@@ -1,6 +1,8 @@
 import React from 'react'
 import serviceDetails from './ServicesDetails'
+import { motion } from 'framer-motion'
 import './OurServicesDetails.css'
+import { fadeIn } from '../../../variants'
 
 const OurServicesDetails = () => {
     return (
@@ -13,7 +15,12 @@ const OurServicesDetails = () => {
                         const isEven = index % 2 === 0;
                         // Check if index is even
                         return (
-                            <div
+                            <div className='overflow-hidden'>
+                            <motion.div
+                                variants={fadeIn(isEven ? 'left' : 'right', index * 0.2)}
+                                initial='hidden'
+                                whileInView='show'
+                                viewport={{ once: false, amount: 0.1 }}
                                 key={data.id}
                                 className={`services_details_section flex justify-center gap-[39px]
                                 ${!isEven ? 'flex-row-reverse' : ''}`}>
@@ -49,6 +56,7 @@ const OurServicesDetails = () => {
                                         </div>
                                     ))}
                                 </div>
+                            </motion.div>
                             </div>
                         )
                     })}

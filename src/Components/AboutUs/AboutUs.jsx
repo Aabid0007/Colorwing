@@ -1,5 +1,8 @@
 import React from 'react'
 import './AboutUs.css'
+import { motion } from 'framer-motion';
+import { fadeIn } from '../../../variants';
+
 const AboutUs = () => {
     return (
         <>
@@ -14,8 +17,10 @@ const AboutUs = () => {
                 </div>
             </div>
             <div className='bg-color '>
-                <div className='container'>
-                    <div className='flex justify-center !py-11 relative flex-col items-center'>
+                <div
+                className='container'>
+                    <div
+                        className='flex justify-center !py-11 relative flex-col items-center'>
                         <p className='custom-text font-normal text-justify p_tag
                           xl:text-[26px] lg:text-[25px] sm:text-[18px] md:text-[20px] text-[16px] md:max-w-[961px] lg:max-w-[1226px] xl:max-w-[100%]'>
                             Colorwing is a young, vibrant and customer-focused organization,
