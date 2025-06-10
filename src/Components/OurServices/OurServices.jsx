@@ -21,7 +21,7 @@ const OurServices = () => {
                             return (
                                 <motion.div
                                     variants={fadeIn(isEven ? 'left' : 'right', index * 0.2)}
-                                    
+
                                     initial='hidden'
                                     whileInView='show'
                                     viewport={{ once: true, amount: 0.3 }}
@@ -29,13 +29,15 @@ const OurServices = () => {
                                     <div className='flex justify-center' >
                                         <img src={card.image} loading='lazy' alt="" className='w-[522px] h-[306px] ' />
                                     </div>
-                                    <h3 className='!text-black font-semibold text-[24px]'>
-                                        {card.heading}
-                                    </h3>
-                                    <div className='card_content max-w-[482px]'>
-                                        <p className='!text-black font-normal text-[18px] '>
-                                            {card.description}
-                                        </p>
+                                    <div>
+                                        <h3 className='!text-black font-semibold text-[24px]'>
+                                            {card.heading}
+                                        </h3>
+                                        <div className='card_content max-w-[482px]'>
+                                            <p className='!text-black font-normal text-[18px] '>
+                                                {card.description}
+                                            </p>
+                                        </div>
                                     </div>
                                 </motion.div>
                             )
