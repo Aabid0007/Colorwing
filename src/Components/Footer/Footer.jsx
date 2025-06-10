@@ -21,10 +21,10 @@ const Footer = () => {
                     <div className='container'>
                         <div className='flex justify-between custom-text items-center !py-[32px]'>
                             <motion.h3
-                                variants={fadeIn('left', 0.3)}
+                                variants={fadeIn('left', 0.2)}
                                 initial='hidden'
                                 whileInView={'show'}
-                                viewport={{ once: false, amount: 0.3 }}
+                                viewport={{ once: true, amount: 0.3 }}
                                 className='font-extraligh 
                             lg:text-[22px] md:text-[20px] sm:text-[9px]
                             lg:max-w-[293px] md:max-w-[264px] sm:max-w-[124px]'>
@@ -34,10 +34,10 @@ const Footer = () => {
                             </motion.h3>
                             <nav>
                                 <motion.ul 
-                                variants={fadeIn('up', 0.3)}
+                                variants={fadeIn('up', 0.2)}
                                 initial='hidden'
                                 whileInView={'show'}
-                                viewport={{ once: false, amount: 0.3 }}
+                                viewport={{ once: true, amount: 0.3 }}
                                 className='list-disc !pl-[9px]'>
                                     <li className='list_item'>Indoor & Outdoor Branding</li>
                                     <li className='list_item'>Paper Bags & Boxes</li>
@@ -47,10 +47,10 @@ const Footer = () => {
                                 </motion.ul>
                             </nav>
                             <motion.div
-                            variants={fadeIn('right', 0.3)}
+                            variants={fadeIn('right', 0.2)}
                                 initial='hidden'
                                 whileInView={'show'}
-                                viewport={{ once: false, amount: 0.3 }}
+                                viewport={{ once: true, amount: 0.3 }}
                             className='footer_icons flex lg:gap-[26px] items-center md:gap-[19px] gap-[18px]'>
                                 <i className="fa-brands fa-facebook-f font-custom "></i>
                                 <i className="fa-brands fa-whatsapp font-custom !text-[20px"></i>
