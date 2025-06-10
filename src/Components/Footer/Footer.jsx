@@ -21,7 +21,7 @@ const Footer = () => {
                     <div className='container'>
                         <div className='flex justify-between custom-text items-center !py-[32px]'>
                             <motion.h3
-                                variants={fadeIn('left', 0.2)}
+                                variants={fadeIn('left', 0.1)}
                                 initial='hidden'
                                 whileInView={'show'}
                                 viewport={{ once: true, amount: 0.3 }}
@@ -34,7 +34,7 @@ const Footer = () => {
                             </motion.h3>
                             <nav>
                                 <motion.ul 
-                                variants={fadeIn('up', 0.2)}
+                                variants={fadeIn('up', 0.1)}
                                 initial='hidden'
                                 whileInView={'show'}
                                 viewport={{ once: true, amount: 0.3 }}
@@ -47,7 +47,7 @@ const Footer = () => {
                                 </motion.ul>
                             </nav>
                             <motion.div
-                            variants={fadeIn('right', 0.2)}
+                            variants={fadeIn('right', 0.1)}
                                 initial='hidden'
                                 whileInView={'show'}
                                 viewport={{ once: true, amount: 0.3 }}
