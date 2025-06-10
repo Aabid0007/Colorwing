@@ -11,7 +11,7 @@ const OurClients = () => {
                     variants={fadeIn('up', 0.2)}
                     initial='hidden'
                     whileInView={'show'}
-                    viewport={{ once: true, amount: 0.3 }}
+                    viewport={{ once: true, amount: 0.2 }}
                     className='flex justify-center gap-[45px] flex-col !pb-24 items-center overflow-hidden'>
                     <h3 className='font-bold text-center custom-text
                           md:text-[42px] lg:text-[50px] sm:text-[26px] text-[22px]'>
